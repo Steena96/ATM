@@ -1,13 +1,16 @@
-import './global.css'
-
+import "./global.css";
+import SideBar from "./components/SideBar";
+import React, { Fragment } from "react";
 function App() {
   return (
     <>
-      <div className='bg-red-500 text-white'>
-       Helloo ATM Project!
+      <div className="w-[100%]">
+        <Fragment>
+          <SideBar />
+        </Fragment>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
